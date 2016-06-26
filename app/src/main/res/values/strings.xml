@@ -1,0 +1,47 @@
+<resources>
+    <string name="bookmark">Bookmark</string>
+
+    <string name="error_retrieving_pictures">Error while retrieving the pictures.</string>
+    <string name="error_retrieving_picture">Error while retrieving the picture.</string>
+    <string name="retry">Retry</string>
+
+    <string name="loading_picture_list">Loading picture list</string>
+    <string name="loading_picture">Loading picture</string>
+
+    <string name="permission_notice">Optional storage permission for a better experience</string>
+
+    <string name="grant">Grant</string>
+
+    <string name="photo_description">Photo</string>
+
+    <string-array name="category_name">
+        <item>Uncategorized</item>
+        <item>Celebrities</item>
+        <item>Film</item>
+        <item>Journalism</item>
+        <item>Nude</item>
+        <item>Black and White</item>
+        <item>Still Life</item>
+        <item>People</item>
+        <item>Landscapes</item>
+        <item>City and Architecture</item>
+        <item>Abstract</item>
+        <item>Animals</item>
+        <item>Macro</item>
+        <item>Travel</item>
+        <item>Fashion</item>
+        <item>Commercial</item>
+        <item>Concert</item>
+        <item>Sport</item>
+        <item>Nature</item>
+        <item>Performing Arts</item>
+        <item>Family</item>
+        <item>Street</item>
+        <item>Underwater</item>
+        <item>Food</item>
+        <item>Fine Art</item>
+        <item>Wedding</item>
+        <item>Transportation</item>
+        <item>Urban Exploration</item>
+    </string-array>
+</resources>

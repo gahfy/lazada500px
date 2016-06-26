@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/lyt_photo_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/img_photo_activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/photo_description" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lyt_photo_activity_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/lbl_photo_activity_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/error_retrieving_picture" />
+        <Button
+            android:id="@+id/bt_photo_activity_retry"
+            style="@style/RaisedButton"
+            android:layout_below="@id/lbl_photo_activity_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retry"
+            android:layout_marginTop="@dimen/margin_vertical_default"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lyt_photo_activity_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/lbl_photo_activity_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/loading_picture" />
+        <ProgressBar
+            android:id="@+id/ph_photo_activity_loading"
+            android:layout_below="@id/lbl_photo_activity_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_default"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyt_photo_activity_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_horizontal_default"
+        android:paddingRight="@dimen/padding_horizontal_default"
+        android:background="@drawable/bkg_overlay_text"
+        android:paddingBottom="@dimen/padding_bottom_details_photo">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/lbl_photo_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="@dimen/txt_size_title"/>
+            <TextView
+                android:id="@+id/lbl_photo_activity_author"
+                android:layout_below="@id/lbl_photo_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_vertical_default"
+                android:textSize="@dimen/txt_size_subheading"
+                android:maxLines="1" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

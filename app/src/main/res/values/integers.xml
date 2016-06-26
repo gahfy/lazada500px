@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 2 is a size of 140px * 140px -->
+    <integer name="size_px_thumb">2</integer>
+
+    <integer name="details_gradient_angle">90</integer>
+</resources>

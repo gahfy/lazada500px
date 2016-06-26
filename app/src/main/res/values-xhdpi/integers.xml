@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 3 is a size of 280px * 280px -->
+    <integer name="size_px_thumb">3</integer>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#183545</color>
+    <color name="primary_dark">#132b38</color>
+    <color name="accent">#f57224</color>
+
+    <color name="txt_default_black">#DE000000</color>
+    <color name="txt_default_white">#DEFFFFFF</color>
+
+    <color name="divider">#20000000</color>
+
+    <color name="bkg_dark_activity">#000000</color>
+    <color name="bkg_light_activity">#f9f9f9</color>
+
+    <color name="txt_raised_button">@android:color/white</color>
+    <color name="ripple_raised_button">@android:color/white</color>
+
+    <color name="bkg_clickable_pressed">#40000000</color>
+    <color name="bkg_clickable_default">@android:color/transparent</color>
+
+    <color name="bkg_photo">#b9c1c7</color>
+    <color name="tint_list_category_icon">#757575</color>
+
+    <color name="bkg_gradient_details_start">#00ffffff</color>
+    <color name="bkg_gravient_details_end">#ff000000</color>
+</resources>

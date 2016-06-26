@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ElevatedLayout">
+        <item name="android:elevation">16dp</item>
+    </style>
+
+    <style name="TransitionTitle">
+        <item name="android:transitionName">@string/transition_name_category_title</item>
+    </style>
+</resources>

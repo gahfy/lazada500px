@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RtlSymmetry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="@style/TransitionTitle"
+            android:id="@+id/lbl_category_title"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/padding_horizontal_default"
+            android:layout_height="@dimen/height_single_line_title"
+            android:textSize="@dimen/txt_size_title" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_category_title"
+            android:layout_alignParentBottom="true">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_category_photos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RelativeLayout
+                android:id="@+id/lyt_category_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bkg_light_activity"
+                android:layout_centerVertical="true"
+                android:visibility="gone">
+                <ProgressBar
+                    android:id="@+id/pb_category_loading_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:layout_below="@id/pb_category_loading_photo"
+                    android:layout_marginTop="@dimen/margin_vertical_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:text="@string/loading_picture_list" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/lyt_category_error"
+        style="@style/ElevatedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/bkg_light_activity"
+        android:paddingLeft="@dimen/padding_horizontal_default"
+        android:paddingRight="@dimen/padding_horizontal_default">
+        <TextView
+            android:id="@+id/lbl_category_error_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/error_retrieving_pictures" />
+        <Button
+            style="@style/RaisedButton"
+            android:id="@+id/bt_category_error_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_vertical_default"
+            android:layout_below="@id/lbl_category_error_details"
+            android:text="@string/retry"/>
+    </RelativeLayout>
+</RelativeLayout>

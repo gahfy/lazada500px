@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:textColor">@color/txt_default_black</item>
+        <item name="android:windowBackground">@color/bkg_light_activity</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:textColor">@color/txt_default_white</item>
+        <item name="android:windowBackground">@color/bkg_dark_activity</item>
+    </style>
+
+    <style name="SingleLineItem">
+        <item name="android:paddingLeft">@dimen/padding_horizontal_default</item>
+        <item name="android:paddingRight">@dimen/padding_horizontal_default</item>
+    </style>
+
+    <style name="ElevatedLayout" />
+
+    <style name="RaisedButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bkg_raised_button</item>
+        <item name="android:textColor">@color/txt_raised_button</item>
+    </style>
+
+    <style name="TransitionTitle" />
+</resources>

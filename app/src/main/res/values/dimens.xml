@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_size_title">20sp</dimen>
+    <dimen name="txt_size_subheading">16sp</dimen>
+
+    <dimen name="height_single_line_title">64dp</dimen>
+
+    <dimen name="padding_horizontal_default">16dp</dimen>
+
+    <dimen name="margin_vertical_default">16dp</dimen>
+    <dimen name="padding_card">16dp</dimen>
+
+    <dimen name="padding_horizontal_raised_button">8dp</dimen>
+    <dimen name="inset_horizontal_raised_button">6dp</dimen>
+    <dimen name="padding_vertical_raised_button">4dp</dimen>
+    <dimen name="inset_vertical_raised_button">4dp</dimen>
+    <dimen name="corner_radius_raised_button">2dp</dimen>
+
+    <dimen name="size_thumb">110dp</dimen>
+
+    <dimen name="padding_bottom_details_photo">25dp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/SingleLineItem">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_vertical_default">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_card">
+            <ImageView
+                android:id="@+id/img_photo_item_main"
+                android:layout_width="@dimen/size_thumb"
+                android:layout_height="@dimen/size_thumb"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bkg_photo"
+                android:contentDescription="@string/photo_description" />
+            <TextView
+                android:id="@+id/lbl_photo_item_title"
+                android:layout_toRightOf="@id/img_photo_item_main"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/padding_horizontal_default"
+                android:paddingRight="@dimen/padding_horizontal_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_title"
+                android:maxLines="2" />
+            <TextView
+                android:id="@+id/lbl_photo_item_author"
+                android:layout_below="@id/lbl_photo_item_title"
+                android:layout_toRightOf="@id/img_photo_item_main"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/padding_horizontal_default"
+                android:paddingRight="@dimen/padding_horizontal_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_subheading"
+                android:maxLines="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

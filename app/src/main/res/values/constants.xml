@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lazada 500px</string>
+
+    <string name="transition_name_category_title">transition:CATEGORY_TITLE</string>
+
+    <string-array name="category_code_name">
+        <item>Uncategorized</item>
+        <item>Celebrities</item>
+        <item>Film</item>
+        <item>Journalism</item>
+        <item>Nude</item>
+        <item>Black and White</item>
+        <item>Still Life</item>
+        <item>People</item>
+        <item>Landscapes</item>
+        <item>City and Architecture</item>
+        <item>Abstract</item>
+        <item>Animals</item>
+        <item>Macro</item>
+        <item>Travel</item>
+        <item>Fashion</item>
+        <item>Commercial</item>
+        <item>Concert</item>
+        <item>Sport</item>
+        <item>Nature</item>
+        <item>Performing Arts</item>
+        <item>Family</item>
+        <item>Street</item>
+        <item>Underwater</item>
+        <item>Food</item>
+        <item>Fine Art</item>
+        <item>Wedding</item>
+        <item>Transportation</item>
+        <item>Urban Exploration</item>
+    </string-array>
+</resources>

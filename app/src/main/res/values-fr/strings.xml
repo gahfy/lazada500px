@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bookmark">Marque page</string>
+
+    <string name="error_retrieving_pictures">Erreur lors de la récupération des images.</string>
+    <string name="error_retrieving_picture">Erreur lors de la récupération de l\'image.</string>
+    <string name="retry">Réessayer</string>
+
+    <string name="loading_picture_list">Chargement de la liste des images</string>
+    <string name="loading_picture">Chargement de l\'image</string>
+
+    <string name="permission_notice">Autorisation optionnelle de stockage pour une meilleure expérience</string>
+
+    <string name="grant">Autoriser</string>
+
+    <string name="photo_description">Photo</string>
+
+    <string-array name="category_name">
+        <item>Sans catégorie</item>
+        <item>Célébrités</item>
+        <item>Cinéma</item>
+        <item>Journalisme</item>
+        <item>Nu</item>
+        <item>Noir et blanc</item>
+        <item>Nature morte</item>
+        <item>Les gens</item>
+        <item>Paysages</item>
+        <item>Villes et architecture</item>
+        <item>Abstrait</item>
+        <item>Animaux</item>
+        <item>Macro</item>
+        <item>Voyages</item>
+        <item>Mode</item>
+        <item>Publicité</item>
+        <item>Concert</item>
+        <item>Sports</item>
+        <item>Nature</item>
+        <item>Arts du spectacle</item>
+        <item>Famille</item>
+        <item>En ville</item>
+        <item>Sous l\'eau</item>
+        <item>Alimentation</item>
+        <item>Art</item>
+        <item>Mariage</item>
+        <item>Transports</item>
+        <item>Exploration urbaine</item>
+    </string-array>
+
+</resources>
