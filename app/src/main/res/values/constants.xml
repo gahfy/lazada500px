@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lazada 500px</string>
+    <string name="app_name" translatable="false">Lazada 500px</string>
 
-    <string name="transition_name_category_title">transition:CATEGORY_TITLE</string>
+    <string name="transition_name_category_title" translatable="false">transition:CATEGORY_TITLE</string>
 
-    <string-array name="category_code_name">
+    <string-array name="category_code_name" translatable="false">
         <item>Uncategorized</item>
         <item>Celebrities</item>
         <item>Film</item>
